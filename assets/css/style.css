@@ -1,0 +1,15 @@
+img {
+    width: 300px;
+    height: 300px;
+}
+header {
+    text-align: center;
+    font-size: 50px;
+    color: darkslateblue;
+}
+.keys {
+    text-align: left;
+    color: coral;
+    background-color: cadetblue;
+    width: 50px;
+}
