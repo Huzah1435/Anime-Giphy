@@ -5,7 +5,7 @@ $("#sButton").click(function () {
     $(".img").empty();
     searchTerm = $("#search").val();
     console.log(searchTerm);
-    xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=VXf90t3BAsTdbqUb9jGOFAW7k58O98V3&limit=" + limit);
+    xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=VXf90t3BAsTdbqUb9jGOFAW7k58O98V3&limit=" + limit);
     xhr.done(function (data) {
         for (i = 0; i < limit; i++) {
 
